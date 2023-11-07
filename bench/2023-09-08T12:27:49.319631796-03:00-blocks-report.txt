@@ -1,0 +1,48 @@
+benchmarking (size=100 #rep=2 #sing=5 shuffle=Chars)/combine
+blocks:     	38.73   	(37.69    .. 39.74   ), ci 0.990
+y-intercept:	0.589   	(-9.58    .. 10.00   ), ci 0.990
+            	0.997 R²	(0.994 R² .. 0.999 R²), ci 0.990
+mean:       	38.79   	(38.32    .. 39.25   ), ci 0.990
+std dev:    	2.648   	(2.385    .. 3.047   ), ci 0.990
+data points:	20
+
+benchmarking (size=100 #rep=2 #sing=5 shuffle=Chars)/combineS
+blocks:     	38.08   	(37.03    .. 39.51   ), ci 0.990
+y-intercept:	-4.09   	(-14.2    .. 4.549   ), ci 0.990
+            	0.997 R²	(0.994 R² .. 0.999 R²), ci 0.990
+mean:       	37.69   	(37.16    .. 38.21   ), ci 0.990
+std dev:    	2.699   	(2.411    .. 3.013   ), ci 0.990
+data points:	20
+
+benchmarking (size=100 #rep=2 #sing=5 shuffle=Chars)/greedy
+blocks:     	29.36   	(28.64    .. 30.12   ), ci 0.990
+y-intercept:	2.049   	(-7.76    .. 10.93   ), ci 0.990
+            	0.998 R²	(0.994 R² .. 0.999 R²), ci 0.990
+mean:       	29.60   	(29.25    .. 30.10   ), ci 0.990
+std dev:    	2.137   	(1.886    .. 2.557   ), ci 0.990
+data points:	16
+
+benchmarking (size=100 #rep=2 #sing=60 shuffle=Chars)/combine
+blocks:     	83.25   	(82.23    .. 83.98   ), ci 0.990
+y-intercept:	2.942   	(-4.06    .. 12.16   ), ci 0.990
+            	0.999 R²	(0.999 R² .. 0.999 R²), ci 0.990
+mean:       	83.62   	(83.18    .. 84.06   ), ci 0.990
+std dev:    	2.054   	(1.752    .. 2.444   ), ci 0.990
+data points:	15
+
+benchmarking (size=100 #rep=2 #sing=60 shuffle=Chars)/combineS
+blocks:     	83.23   	(82.50    .. 83.80   ), ci 0.990
+y-intercept:	-0.77   	(-5.95    .. 3.302   ), ci 0.990
+            	0.999 R²	(0.999 R² .. 0.999 R²), ci 0.990
+mean:       	83.13   	(82.71    .. 83.63   ), ci 0.990
+std dev:    	2.147   	(1.857    .. 2.530   ), ci 0.990
+data points:	16
+
+benchmarking (size=100 #rep=2 #sing=60 shuffle=Chars)/greedy
+blocks:     	83.48   	(82.87    .. 84.41   ), ci 0.990
+y-intercept:	-2.65   	(-9.63    .. 4.832   ), ci 0.990
+            	0.999 R²	(0.999 R² .. 0.999 R²), ci 0.990
+mean:       	83.17   	(82.69    .. 83.67   ), ci 0.990
+std dev:    	2.197   	(1.901    .. 2.643   ), ci 0.990
+data points:	16
+

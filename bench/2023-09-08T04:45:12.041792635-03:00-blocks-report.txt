@@ -1,0 +1,30 @@
+benchmarking (size=100 #rep=2 #sing=5)/combine
+blocks:     	39.53   	(38.58    .. 40.78   ),ci 0.990
+            	0.998 R²	(0.995 R² .. 0.999 R²),ci 0.990
+data points:	18
+
+benchmarking (size=100 #rep=2 #sing=5)/combineS
+blocks:     	37.75   	(37.14    .. 38.51   ),ci 0.990
+            	0.998 R²	(0.996 R² .. 0.999 R²),ci 0.990
+data points:	22
+
+benchmarking (size=100 #rep=2 #sing=5)/greedy
+blocks:     	30.20   	(29.39    .. 31.54   ),ci 0.990
+            	0.998 R²	(0.996 R² .. 0.999 R²),ci 0.990
+data points:	16
+
+benchmarking (size=100 #rep=2 #sing=60)/combine
+blocks:     	83.57   	(82.69    .. 84.23   ),ci 0.990
+            	0.999 R²	(0.999 R² .. 0.999 R²),ci 0.990
+data points:	12
+
+benchmarking (size=100 #rep=2 #sing=60)/combineS
+blocks:     	83.15   	(82.62    .. 83.73   ),ci 0.990
+            	0.999 R²	(0.999 R² .. 0.999 R²),ci 0.990
+data points:	16
+
+benchmarking (size=100 #rep=2 #sing=60)/greedy
+blocks:     	83.07   	(82.12    .. 84.27   ),ci 0.990
+            	0.999 R²	(0.998 R² .. 0.999 R²),ci 0.990
+data points:	16
+

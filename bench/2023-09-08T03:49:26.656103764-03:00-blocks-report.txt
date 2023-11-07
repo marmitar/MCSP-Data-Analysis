@@ -1,0 +1,30 @@
+benchmarking (size=100 #rep=2 #sing=5)/combine
+blocks:     	(Estimate {estPoint = 38.80701754385963, estError = ConfInt {confIntLDX = 0.7534279739307621, confIntUDX = 0.8268135876739677, confIntCL = mkCLFromSignificance 1.0e-2}},Estimate {estPoint = -0.7017543859647885, estError = ConfInt {confIntLDX = 5.575220975122282, confIntUDX = 5.932473703725126, confIntCL = mkCLFromSignificance 1.0e-2}})
+            	Estimate {estPoint = 0.9991419492087841, estError = ConfInt {confIntLDX = 1.4440624001674784e-3, confIntUDX = 7.01468580431186e-4, confIntCL = mkCLFromSignificance 1.0e-2}} R²
+data points:	19
+
+benchmarking (size=100 #rep=2 #sing=5)/combineS
+blocks:     	(Estimate {estPoint = 37.457172342621234, estError = ConfInt {confIntLDX = 1.1163319141675174, confIntUDX = 0.666965588413234, confIntCL = mkCLFromSignificance 1.0e-2}},Estimate {estPoint = 3.2679738562093346, estError = ConfInt {confIntLDX = 4.63528777206688, confIntUDX = 11.849944278785845, confIntCL = mkCLFromSignificance 1.0e-2}})
+            	Estimate {estPoint = 0.9987203084310402, estError = ConfInt {confIntLDX = 4.343279060694649e-3, confIntUDX = 1.090894132632414e-3, confIntCL = mkCLFromSignificance 1.0e-2}} R²
+data points:	18
+
+benchmarking (size=100 #rep=2 #sing=5)/greedy
+blocks:     	(Estimate {estPoint = 29.700000000000006, estError = ConfInt {confIntLDX = 0.47884896289803436, confIntUDX = 0.8229681978798631, confIntCL = mkCLFromSignificance 1.0e-2}},Estimate {estPoint = 0.9249999999999476, estError = ConfInt {confIntLDX = 5.79871134020638, confIntUDX = 6.433560794044566, confIntCL = mkCLFromSignificance 1.0e-2}})
+            	Estimate {estPoint = 0.9986176676492109, estError = ConfInt {confIntLDX = 3.7858019186636227e-3, confIntUDX = 1.2272924249849826e-3, confIntCL = mkCLFromSignificance 1.0e-2}} R²
+data points:	16
+
+benchmarking (size=100 #rep=2 #sing=60)/combine
+blocks:     	(Estimate {estPoint = 83.86068111455103, estError = ConfInt {confIntLDX = 1.0184297652834573, confIntUDX = 0.7850042868210068, confIntCL = mkCLFromSignificance 1.0e-2}},Estimate {estPoint = -1.7320261437904276, estError = ConfInt {confIntLDX = 7.134131686385672, confIntUDX = 9.562337024621575, confIntCL = mkCLFromSignificance 1.0e-2}})
+            	Estimate {estPoint = 0.9998105779138584, estError = ConfInt {confIntLDX = 1.9135478871856737e-4, confIntUDX = 1.4305583578166914e-4, confIntCL = mkCLFromSignificance 1.0e-2}} R²
+data points:	18
+
+benchmarking (size=100 #rep=2 #sing=60)/combineS
+blocks:     	(Estimate {estPoint = 81.83088235294115, estError = ConfInt {confIntLDX = 0.9686058742616979, confIntUDX = 1.5158513154005533, confIntCL = mkCLFromSignificance 1.0e-2}},Estimate {estPoint = 7.522058823529637, estError = ConfInt {confIntLDX = 8.112986161948195, confIntUDX = 13.078169617362022, confIntCL = mkCLFromSignificance 1.0e-2}})
+            	Estimate {estPoint = 0.9997151961046195, estError = ConfInt {confIntLDX = 3.921670063896654e-4, confIntUDX = 2.0549521720381048e-4, confIntCL = mkCLFromSignificance 1.0e-2}} R²
+data points:	17
+
+benchmarking (size=100 #rep=2 #sing=60)/greedy
+blocks:     	(Estimate {estPoint = 83.23823529411767, estError = ConfInt {confIntLDX = 0.5851740696279677, confIntUDX = 1.3273224358235751, confIntCL = mkCLFromSignificance 1.0e-2}},Estimate {estPoint = -1.6500000000001602, estError = ConfInt {confIntLDX = 6.6041404911481685, confIntUDX = 9.32177914110644, confIntCL = mkCLFromSignificance 1.0e-2}})
+            	Estimate {estPoint = 0.9997587512417854, estError = ConfInt {confIntLDX = 6.614060237538633e-4, confIntUDX = 2.1162068923630262e-4, confIntCL = mkCLFromSignificance 1.0e-2}} R²
+data points:	16
+

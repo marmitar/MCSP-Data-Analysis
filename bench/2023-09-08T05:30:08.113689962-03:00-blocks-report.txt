@@ -1,0 +1,48 @@
+benchmarking (size=100 #rep=2 #sing=5)/combine
+blocks:     	38.83   	(38.08    .. 39.94   ), ci 0.990
+y-intercapt:	2.039   	(-12.2    .. 11.32   ), ci 0.990
+            	0.998 R²	(0.994 R² .. 0.999 R²), ci 0.990
+mean:       	39.05   	(38.58    .. 39.52   ), ci 0.990
+std dev:    	2.514   	(2.210    .. 2.877   ), ci 0.990
+data points:	18
+
+benchmarking (size=100 #rep=2 #sing=5)/combineS
+blocks:     	37.84   	(37.21    .. 38.66   ), ci 0.990
+y-intercapt:	1.977   	(-4.16    .. 10.51   ), ci 0.990
+            	0.998 R²	(0.996 R² .. 0.999 R²), ci 0.990
+mean:       	38.06   	(37.61    .. 38.67   ), ci 0.990
+std dev:    	2.301   	(1.982    .. 2.851   ), ci 0.990
+data points:	17
+
+benchmarking (size=100 #rep=2 #sing=5)/greedy
+blocks:     	29.87   	(29.49    .. 30.42   ), ci 0.990
+y-intercapt:	-1.52   	(-6.43    .. 2.436   ), ci 0.990
+            	0.999 R²	(0.998 R² .. 0.999 R²), ci 0.990
+mean:       	29.66   	(29.23    .. 30.20   ), ci 0.990
+std dev:    	1.934   	(1.653    .. 2.242   ), ci 0.990
+data points:	14
+
+benchmarking (size=100 #rep=2 #sing=60)/combine
+blocks:     	84.03   	(83.01    .. 84.90   ), ci 0.990
+y-intercapt:	-2.56   	(-9.28    .. 5.843   ), ci 0.990
+            	0.999 R²	(0.998 R² .. 0.999 R²), ci 0.990
+mean:       	83.75   	(83.30    .. 84.21   ), ci 0.990
+std dev:    	2.257   	(1.992    .. 2.635   ), ci 0.990
+data points:	17
+
+benchmarking (size=100 #rep=2 #sing=60)/combineS
+blocks:     	82.73   	(82.12    .. 83.35   ), ci 0.990
+y-intercapt:	0.757   	(-4.72    .. 5.886   ), ci 0.990
+            	0.999 R²	(0.999 R² .. 0.999 R²), ci 0.990
+mean:       	82.81   	(82.35    .. 83.33   ), ci 0.990
+std dev:    	2.363   	(2.026    .. 2.840   ), ci 0.990
+data points:	17
+
+benchmarking (size=100 #rep=2 #sing=60)/greedy
+blocks:     	82.98   	(81.98    .. 83.91   ), ci 0.990
+y-intercapt:	2.580   	(-2.63    .. 10.56   ), ci 0.990
+            	0.999 R²	(0.999 R² .. 0.999 R²), ci 0.990
+mean:       	83.30   	(82.86    .. 83.76   ), ci 0.990
+std dev:    	2.085   	(1.828    .. 2.351   ), ci 0.990
+data points:	15
+

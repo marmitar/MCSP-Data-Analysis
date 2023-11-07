@@ -1,0 +1,30 @@
+benchmarking (size=100 #rep=2 #sing=5)/combine
+blocks:     	   39   	(   38    ..    40   )
+            	    1 R²	(    1 R² ..     1 R²)
+data points:	18
+
+benchmarking (size=100 #rep=2 #sing=5)/combineS
+blocks:     	   38   	(   37    ..    39   )
+            	    1 R²	(    1 R² ..     1 R²)
+data points:	19
+
+benchmarking (size=100 #rep=2 #sing=5)/greedy
+blocks:     	   30   	(   30    ..    31   )
+            	    1 R²	(    1 R² ..     1 R²)
+data points:	15
+
+benchmarking (size=100 #rep=2 #sing=60)/combine
+blocks:     	   83   	(   82    ..    84   )
+            	    1 R²	(    1 R² ..     1 R²)
+data points:	16
+
+benchmarking (size=100 #rep=2 #sing=60)/combineS
+blocks:     	   83   	(   83    ..    85   )
+            	    1 R²	(    1 R² ..     1 R²)
+data points:	16
+
+benchmarking (size=100 #rep=2 #sing=60)/greedy
+blocks:     	   83   	(   82    ..    83   )
+            	    1 R²	(    1 R² ..     1 R²)
+data points:	16
+

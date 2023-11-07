@@ -1,0 +1,48 @@
+benchmarking (size=100 #rep=2 #sing=5 shuffle=Blocks)/combine
+blocks:     	17.18   	(16.60    .. 18.07   )
+y-intercept:	31.85   	(5.877    .. 60.64   )
+            	0.986 R²	(0.973 R² .. 0.994 R²)
+mean:       	17.86   	(17.37    .. 18.40   )
+std dev:    	10.62   	(10.36    .. 10.83   )
+data points:	60        	 ci: 0.990
+
+benchmarking (size=100 #rep=2 #sing=5 shuffle=Blocks)/combineS
+blocks:     	6.133   	(5.398    .. 6.769   )
+y-intercept:	-9.09   	(-22.4    .. 2.549   )
+            	0.937 R²	(0.861 R² .. 0.974 R²)
+mean:       	5.656   	(5.274    .. 6.070   )
+std dev:    	4.027   	(3.621    .. 4.485   )
+data points:	35        	 ci: 0.990
+
+benchmarking (size=100 #rep=2 #sing=5 shuffle=Blocks)/greedy
+blocks:     	4.541   	(4.333    .. 4.740   )
+y-intercept:	0.850   	(-5.66    .. 6.250   )
+            	0.991 R²	(0.986 R² .. 0.995 R²)
+mean:       	4.565   	(4.445    .. 4.696   )
+std dev:    	2.095   	(2.007    .. 2.186   )
+data points:	52        	 ci: 0.990
+
+benchmarking (size=100 #rep=2 #sing=60 shuffle=Blocks)/combine
+blocks:     	4.695   	(4.507    .. 4.884   )
+y-intercept:	-2.11   	(-8.04    .. 3.997   )
+            	0.992 R²	(0.984 R² .. 0.997 R²)
+mean:       	4.650   	(4.530    .. 4.757   )
+std dev:    	2.374   	(2.279    .. 2.481   )
+data points:	60        	 ci: 0.990
+
+benchmarking (size=100 #rep=2 #sing=60 shuffle=Blocks)/combineS
+blocks:     	4.559   	(4.307    .. 4.802   )
+y-intercept:	-3.35   	(-9.91    .. 2.811   )
+            	0.984 R²	(0.971 R² .. 0.993 R²)
+mean:       	4.459   	(4.343    .. 4.592   )
+std dev:    	2.040   	(1.960    .. 2.131   )
+data points:	51        	 ci: 0.990
+
+benchmarking (size=100 #rep=2 #sing=60 shuffle=Blocks)/greedy
+blocks:     	4.440   	(4.282    .. 4.604   )
+y-intercept:	0.493   	(-4.20    .. 6.392   )
+            	0.994 R²	(0.989 R² .. 0.997 R²)
+mean:       	4.451   	(4.346    .. 4.556   )
+std dev:    	2.040   	(1.971    .. 2.124   )
+data points:	58        	 ci: 0.990
+
